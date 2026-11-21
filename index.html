@@ -33,6 +33,8 @@ body{font-family:Cairo,Tahoma,Arial,sans-serif;background:#f6f0e4}
 .skip{position:absolute;top:-100px;right:1em;z-index:5;background:white;padding:8px}.skip:focus{top:0}.toolshelf{max-width:1240px;margin:auto;padding:0 4vw 8px}.toolshelf summary{cursor:pointer;font-weight:bold;width:fit-content;padding:6px 10px}.preferences{display:flex;flex-wrap:wrap;gap:9px;align-items:center;padding:8px}.preferences label{padding:7px;background:#f0eee2;border-radius:8px}.preferences input{width:19px;height:19px;vertical-align:middle}.machine{background:radial-gradient(ellipse at 0% 20%,#356052,transparent 67%),#163c34;color:#fff8df;padding:clamp(18px,3vw,38px);display:grid;grid-template-columns:minmax(0,1fr) minmax(270px,1fr);gap:clamp(14px,4vw,62px);align-items:center}.machine h1{font-size:clamp(32px,4vw,56px);margin:0}.machine p{margin:8px 0}.instrument{border:2px solid #b78f58;border-radius:20px;background:#10352e;padding:16px;box-shadow:inset 0 0 0 4px #29473a}.instrument-top{display:flex;align-items:center;justify-content:space-between;gap:10px}.instrument output{font:bold 2.3em Georgia,Tahoma,serif;color:#ffe0a0}.reel{height:48px;width:48px;border:5px double #f8cf8a;border-radius:50%;background:repeating-conic-gradient(#d6ae71 0deg 9deg,transparent 9deg 53deg);transform:rotate(var(--angle));transition:transform .5s}.thread{width:100%;margin:2px 0;direction:ltr;accent-color:#ffe2a9;cursor:pointer;height:34px}.epoch{direction:ltr;display:grid;grid-template-columns:repeat(4,1fr);gap:5px}.epoch button{padding:6px 2px;min-width:0;min-height:44px}.epoch button:focus-visible,.thread:focus-visible{outline:3px solid white}.atlas-sheet figure{min-width:0}.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}.large{font-size:21px}.large :is(.small,small,figcaption,nav button,label select,.eyebrow,.tag){font-size:1rem}.large .atlas-pin text{font-size:16px}.contrast{background:white;color:#102d24}.contrast :is(.panel,.card,.toolshelf,.atlas-sheet aside,.preferences label){color:#102d24;background:white}.contrast :is(.machine,.instrument,.hero){background:#08241c;color:white}.contrast .atlas-map{background:#e4f6ef}.contrast button{outline:1px solid currentColor}.quiet *{animation-duration:0s!important;transition:none!important;scroll-behavior:auto!important}.guide{background:#f4ead1;color:#493b24;padding:12px;border-inline-start:4px solid #a86b33;border-radius:7px}.preferences button,button{touch-action:manipulation}
 @media(max-width:720px){.machine{grid-template-columns:1fr;gap:12px}.instrument{padding:10px 14px}.machine h1{font-size:32px}.preferences{display:grid;grid-template-columns:repeat(auto-fit,minmax(135px,1fr))}.bar{flex-wrap:wrap}.instrument-top{line-height:1.2}}
 @media(prefers-reduced-motion:reduce){*{transition:none!important;animation-duration:0s!important}}
+</style><style>
+.machine{background:linear-gradient(120deg,#254e43,#163d35);border-block-end:8px solid #dba35f}.machine h1{font-size:clamp(38px,5vw,68px);color:#ffdfa1}.instrument{background:#fff3d8;border:2px solid #ad8051;box-shadow:0 4px 0 #996a40;padding:9px 12px}.instrument-top{padding:0 6px}.instrument output{color:#654323}.instrument .thread{accent-color:#9b432d}.time-stage{isolation:isolate;overflow:hidden;position:relative;height:174px;background:radial-gradient(circle at 78% 24%,#ffdf91 0 17px,transparent 18px),linear-gradient(#a9d6ca,#fce4b5);border-radius:10px}.terraces,.terraces:before,.terraces:after{position:absolute;border-radius:50% 70% 0 0}.terraces{inset:48% -8% -34%;background:#819b68;transform:rotate(-7deg)}.terraces:before,.terraces:after{content:"";width:90%;height:90%;background:#5d8054;left:-12%;top:21%;border-top:5px solid #ccbb87}.terraces:after{left:38%;top:40%;background:#386752}.stonegate{position:absolute;bottom:7%;right:12%;width:112px;height:142px;background:repeating-linear-gradient(0deg,#d4b381 0 16px,#b8976b 17px 19px);padding:11px 13px 0;border-radius:60px 60px 2px 2px;box-shadow:5px 3px 0 #81684d}.doorwell{height:100%;overflow:hidden;border-radius:50px 50px 0 0;background:radial-gradient(ellipse,#fff6bf,#ffca63 55%,#dfa451);position:relative}.leaf-door{position:absolute;top:0;bottom:0;width:50%;background:repeating-linear-gradient(90deg,#83513a 0 11px,#a16c47 12px 14px);border:1px solid #633e2f;transition:transform .8s ease-in-out .57s}.leaf-door:after{content:"";position:absolute;bottom:40%;width:7px;height:7px;background:#f0c37a;border-radius:100%}.left{left:0;transform-origin:left}.right{right:0;transform-origin:right}.left:after{right:4px}.right:after{left:4px}.travelling .left{transform:perspective(180px) rotateY(-84deg)}.travelling .right{transform:perspective(180px) rotateY(84deg)}.travelling .stonegate{box-shadow:0 0 24px 6px #ffe5a4}.time-wheel{position:absolute;left:9%;top:7%;width:113px;aspect-ratio:1;background:none;border:0;padding:0;border-radius:50%;filter:drop-shadow(1px 4px 2px #49321c66)}.time-wheel svg{display:block;width:100%}.travelling .time-wheel svg{animation:wheel-turn 1.5s cubic-bezier(.23,.55,.25,1) forwards}@keyframes wheel-turn{to{transform:rotate(540deg)}}.wheel-caption{position:absolute;left:9%;bottom:8%;width:113px;text-align:center;font-size:14px;font-weight:bold;color:white;background:#294d3f;border-radius:20px}.instrument button.chime-switch,.contrast .instrument button.chime-switch{padding:5px 10px;min-height:44px;background:#f7e4bd;color:#503a22}.epoch button{background:#205244;color:white}.instrument .epoch button[aria-pressed=true]{background:#9d442d;color:white}.contrast .instrument output{color:white}.quiet .travelling .time-wheel svg{animation:none}.quiet .leaf-door{transition:none}@media(prefers-reduced-motion:reduce){.travelling .time-wheel svg{animation:none}.leaf-door{transition:none}}@media(max-width:380px){.stonegate{right:5%;width:92px}.time-wheel,.wheel-caption{left:5%}}
 </style></head><body><a class="skip" href="#app" onclick="event.preventDefault();document.getElementById('app').focus()">انتقل إلى النشاط</a><div class="band"></div><header><div class="bar"><div class="brand"><span class="motif" aria-hidden="true">❖</span> خيوط تراثنا</div><nav aria-label="التنقل الرئيسي" id="nav"></nav></div><details class="toolshelf"><summary>خيارات التعلّم والقراءة</summary><div class="preferences"><label><input id="large" type="checkbox"> تكبير النص</label><label><input id="contrast" type="checkbox"> تباين مرتفع</label><label><input id="quiet" type="checkbox"> تقليل الحركة</label><label><input id="guided" type="checkbox"> شرح خطوة بخطوة</label><button id="reader" type="button">استمع إلى النشاط</button><span id="voiceInfo" role="status"></span></div></details></header><main id="app" tabindex="-1"></main><footer>من خيوط تراثنا إلى أسرار أرقامنا – الرياضيات تحكي حكاية فلسطين</footer><dialog id="dialog"><button onclick="dialog.close()">إغلاق ×</button><div id="media"></div></dialog>
 <script>
 // Media are bundled so the journey also opens directly from disk.
@@ -96,12 +98,65 @@ function initPrefs(){
  };
  window.addEventListener('hashchange',()=>{if(utterance){speechSynthesis.cancel();resetVoice()}});
 }
-function changeEra(i,control='epoch-'+i){
-  era=i;
-  if(!eraStops[i].includes(place)) place=eraStops[i][0];
-  render();
-  document.getElementById(control)?.focus({preventScroll:true});
+
+let doorTimer, travelAudio;
+function stopChime(){
+ if(travelAudio){const ctx=travelAudio;travelAudio=null;ctx.close().catch(()=>{});}
 }
+function toggleChime(button){
+ prefs.muteTravel=!prefs.muteTravel;
+ if(prefs.muteTravel)stopChime();
+ try{localStorage.setItem('zaytouna.preferences',JSON.stringify(prefs))}catch{}
+ button.setAttribute('aria-pressed',String(!prefs.muteTravel));
+ button.textContent=prefs.muteTravel?'الصوت مكتوم':'الصوت مفعّل';
+}
+function playChime(){
+ stopChime();
+ const Engine=window.AudioContext||window.webkitAudioContext;
+ if(prefs.muteTravel||!Engine)return;
+ try{
+ const ctx=new Engine();travelAudio=ctx;
+ ctx.resume().then(()=>{
+ if(travelAudio!==ctx)return;
+ const now=ctx.currentTime;
+ const tone=(frequency,end,start,length,volume,type)=>{
+   const osc=ctx.createOscillator(),gain=ctx.createGain();
+   osc.type=type;osc.frequency.setValueAtTime(frequency,start);osc.frequency.exponentialRampToValueAtTime(end,start+length);
+   gain.gain.setValueAtTime(.0001,start);gain.gain.exponentialRampToValueAtTime(volume,start+.085);
+   gain.gain.exponentialRampToValueAtTime(.0001,start+length);
+   osc.connect(gain);gain.connect(ctx.destination);osc.start(start);osc.stop(start+length+.01);
+ };
+ tone(170,550,now,.9,.055,'sine');
+ [392,494,587,784].forEach((f,j)=>tone(f,f,now+.38+j*.15,.58,.055,'sine'));
+ setTimeout(()=>{if(travelAudio===ctx)stopChime()},1750);
+ }).catch(()=>{if(travelAudio===ctx)stopChime()});
+ }catch{}
+}
+function wheelArt(){
+ const stitches=Array.from({length:12},(_,i)=>`<g transform="rotate(${i*30} 74 74)"><path d="M74 8l7 9-7 9-7-9z" fill="${i%2?'#fff0bd':'#d86a4b'}"/><path d="M72 30h4v28h-4z" fill="#edbd72"/></g>`).join('');
+ return `<svg viewBox="0 0 148 148" aria-hidden="true"><circle cx="74" cy="74" r="71" fill="#613e2e" stroke="#edc185" stroke-width="5"/><circle cx="74" cy="74" r="60" fill="#983d32"/><circle cx="74" cy="74" r="45" fill="#26594c"/>${stitches}<path d="m74 48 8 14 16-1-7 15 8 13-17 1-8 14-8-14-16-1 8-13-8-15 16 1z" fill="#f1bf68"/><circle cx="74" cy="76" r="9" fill="#743e29"/></svg>`;
+}
+function doorway(){
+ return `<div class="time-stage"><div class="terraces" aria-hidden="true"></div><div class="stonegate" aria-hidden="true"><div class="doorwell"><span class="sunrise"></span><span class="leaf-door left"></span><span class="leaf-door right"></span></div></div><button class="time-wheel" id="turnWheel" aria-label="أدر عجلة الزمن وانتقل إلى السنة التالية" onclick="changeEra((era+1)%eras.length,'turnWheel')">${wheelArt()}</button><span class="wheel-caption">أدِر العجلة</span></div>`;
+}
+function changeEra(i,control='epoch-'+i){
+ const machine=document.querySelector('.machine');
+ if(!machine||machine.classList.contains('travelling'))return;
+ const from=document.activeElement;
+ const status=document.getElementById('travelMessage');
+ status.textContent='الباب يفتح على سنة '+eras[i][0]+'…';
+ document.getElementById('dialYear').textContent=eras[i][0];
+ const range=document.getElementById('shuttle');range.value=i;range.setAttribute('aria-valuetext',eras[i][0]);
+ machine.classList.add('travelling');playChime();
+ clearTimeout(doorTimer);
+ doorTimer=setTimeout(()=>{
+  if(!machine.isConnected)return;
+  const restoreFocus=document.activeElement===from;
+  era=i;if(!eraStops[i].includes(place)) place=eraStops[i][0];render();
+  if(restoreFocus)document.getElementById(control)?.focus({preventScroll:true});
+ },reducedMotion()?240:2000);
+}
+window.addEventListener('hashchange',()=>{clearTimeout(doorTimer);stopChime()});
 function mapview(){
   const pins=eraStops[era].map(i=>{
     const [name,lon,lat]=places[i], [x,y]=xy(lon,lat), [lx,ly]=labelPositions[i];
@@ -149,7 +204,7 @@ function previewShuttle(input){
 function atlas(){
   const e=eras[era],p=places[place];
   const years=eras.map((v,i)=>`<button id="epoch-${i}" aria-pressed="${era===i}" onclick="changeEra(${i})">${v[0]}</button>`).join('');
-  return `<section class="atlas-spread"><div class="machine"><div><h1>نول الزمن</h1><p>أيّ سنة ننسجها اليوم؟ حرّك المكّوك أو اختر سنة، ثم المس اسمًا على الخريطة.</p><strong aria-live="polite">${e[0]} · ${e[1]}</strong></div><div class="instrument"><div class="instrument-top"><span class="reel" aria-hidden="true" style="--angle:${era*45}deg"></span><output for="shuttle" id="dialYear">${e[0]}</output><span class="reel" aria-hidden="true" style="--angle:${-era*45}deg"></span></div><label class="sr" for="shuttle">مكّوك آلة الزمن</label><input id="shuttle" class="thread" type="range" min="0" max="3" step="1" value="${era}" aria-valuetext="${e[0]} · ${e[1]}" oninput="previewShuttle(this)" onchange="changeEra(Number(this.value),'shuttle')"><div class="epoch" role="group" aria-label="سنوات الرحلة">${years}</div></div></div><div class="atlas-sheet"><figure>${mapview()}<figcaption>خريطة تعليمية تقريبية لفلسطين التاريخية · تظهر محطات الدرس لكل سنة.</figcaption></figure><aside><small>آلة الزمن · ${e[0]}</small><h2>${e[1]}</h2><p>${e[2]}</p><a href="${e[3]}" target="_blank" rel="noopener">${e[4]} ↗</a><hr><section aria-live="polite"><h3>${p[0]}</h3><p>${p[3]}</p></section><div class="actions">${era===0&&place===0?btn('ادخل سوق يافا',"go('city')",'dark'):''}${btn('وثيقة الخريطة','mapDoc()')}${btn('إلى غرفة الجدّة',"go('room')")}</div></aside></div></section>`;
+  return `<section class="atlas-spread"><div class="machine"><div><h1>عجلة الزمن</h1><p>أدِر العجلة المطرّزة لتفتح باب الحكاية، أو اختر سنة لتزورها على خريطة فلسطين.</p><strong id="travelMessage" aria-live="polite">${e[0]} · ${e[1]}</strong></div><div class="instrument">${doorway()}<div class="instrument-top"><button class="chime-switch" type="button" aria-pressed="${!prefs.muteTravel}" onclick="toggleChime(this)">${prefs.muteTravel?'الصوت مكتوم':'الصوت مفعّل'}</button><output for="shuttle" id="dialYear">${e[0]}</output></div><label class="sr" for="shuttle">مكّوك آلة الزمن</label><input id="shuttle" class="thread" type="range" min="0" max="3" step="1" value="${era}" aria-valuetext="${e[0]} · ${e[1]}" oninput="previewShuttle(this)" onchange="changeEra(Number(this.value),'shuttle')"><div class="epoch" role="group" aria-label="سنوات الرحلة">${years}</div></div></div><div class="atlas-sheet"><figure>${mapview()}<figcaption>خريطة تعليمية تقريبية لفلسطين التاريخية · تظهر محطات الدرس لكل سنة.</figcaption></figure><aside><small>آلة الزمن · ${e[0]}</small><h2>${e[1]}</h2><p>${e[2]}</p><a href="${e[3]}" target="_blank" rel="noopener">${e[4]} ↗</a><hr><section aria-live="polite"><h3>${p[0]}</h3><p>${p[3]}</p></section><div class="actions">${era===0&&place===0?btn('ادخل سوق يافا',"go('city')",'dark'):''}${btn('وثيقة الخريطة','mapDoc()')}${btn('إلى غرفة الجدّة',"go('room')")}</div></aside></div></section>`;
 }
 function mapDoc(){modal(`<h2>وثيقة أرشيفية · ١٩٤٥</h2><img src="${MAP}" alt="نسخة مصوّرة لخريطة مسح فلسطين"><p>خريطة فلسطين، مسح سنة ١٩٤٥ بحسب فهرس مجموعة ماتسون. افتح النسخة الأصلية لتكبير التفاصيل.</p><a target="_blank" rel="noopener" href="https://www.loc.gov/pictures/resource/matpc.12336/">سجلّ مكتبة الكونغرس ↗</a>`)}
 const stops=['سوق البرتقال','ساحة الساعة','ميناء يافا','بيت في يافا'];const missions=['تجهيز السلال','قسمة المحصول','تماثل التطريز','سياج الساحة','بلاط البيت','صناديق الميناء'];const atStop=[[0,1],[3],[5],[2,4]];
